@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPPU KUMAR SINGH | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Updated Navigation with Profile -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <div class="nav-profile">
+                <img src="assets/images/profile/papu.jpg" 
+                     alt="PAPPU" 
+                     class="nav-profile-img">
+            </div>
+            <a href="#" class="logo">PAPPU KUMAR</a>
+        </div>
+        
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+   <!-- Hero Section with Profile Picture -->
+<section id="home" class="hero">
+    <div class="hero-bg"></div>
+    
+    <!-- Floating Particles -->
+    <div class="floating-element" style="width: 100px; height: 100px; top: 20%; left: 10%;"></div>
+    <div class="floating-element" style="width: 150px; height: 150px; top: 60%; right: 10%;"></div>
+    <div class="floating-element" style="width: 80px; height: 80px; bottom: 20%; left: 20%;"></div>
+    
+    <div class="container">
+        <div class="hero-content">
+            <!-- Profile Picture -->
+            <div class="profile-image-container">
+                <img src="assets/images/profile/papu.jpg" 
+                     alt="PAPPU KUMAR" 
+                     class="profile-image">
+                <div class="profile-status">
+                    <span class="status-dot"></span>
+                    <span>Available for work</span>
+                </div>
+            </div>
+            
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-code"></i>
+                    <span>Full Stack Developer</span>
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">PAPPU KUMAR</span></h1>
+                <p class="hero-subtitle">I build exceptional digital experiences that are fast, accessible, visually appealing, and responsive.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate developer with experience building web applications and digital solutions</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;">
+                    I'm a full-stack developer specializing in modern web technologies. 
+                    I love creating efficient, scalable solutions that solve real-world problems. 
+                    Currently focused on React, Node.js, and cloud technologies.
+                </p>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Frontend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-server"></i> Backend</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Express</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">REST API</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">Problem Solving</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">A selection of my recent work and personal projects</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/MINIPROJECT.png" alt="E-commerce Website" loading="lazy">
+                        <div class="image-overlay">
+                            <span class="view-project">View Project</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A fully functional e-commerce website with product listings, shopping cart, and checkout system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/ecommerce-project" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://yourprojectdemo.com" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-gradient" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A productivity application for managing daily tasks with drag & drop functionality.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/task-manager" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://taskapp.yourdomain.com" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-gradient" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Food Delivery App</h3>
+                        <p>Online food ordering platform with restaurant listings, menu, and order tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/food-delivery" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://foodapp.yourdomain.com" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-gradient" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Blog Platform</h3>
+                        <p>A blogging platform with user authentication, CRUD operations, and rich text editor.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MERN Stack</span>
+                            <span class="tech-tag">JWT Auth</span>
+                            <span class="tech-tag">Cloudinary</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yourusername/blog-platform" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://blog.yourdomain.com" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey and career milestones</p>
+            </div>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Present</div>
+                        <h3>Web Developer</h3>
+                        <p style="color: var(--primary); margin: 0.5rem 0;">Freelance</p>
+                        <ul style="padding-left: 1.5rem; margin-top: 1rem;">
+                            <li>Developed responsive websites for small businesses and startups</li>
+                            <li>Implemented modern UI/UX designs using HTML, CSS, and JavaScript</li>
+                            <li>Optimized websites for performance and SEO</li>
+                            <li>Collaborated with clients to understand requirements and deliver solutions</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - 2023</div>
+                        <h3>Frontend Developer Intern</h3>
+                        <p style="color: var(--primary); margin: 0.5rem 0;">Tech Solutions Pvt Ltd</p>
+                        <ul style="padding-left: 1.5rem; margin-top: 1rem;">
+                            <li>Assisted in developing user interfaces for web applications</li>
+                            <li>Fixed bugs and improved existing features</li>
+                            <li>Participated in code reviews and team meetings</li>
+                            <li>Learned modern frontend technologies and best practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+<section id="resume" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">My Resume</h2>
+            <p class="section-subtitle">Download my resume or view it online</p>
+        </div>
+        
+        <div class="resume-container">
+            <div class="resume-card">
+                <div class="resume-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Download Resume</h3>
+                <p>Get a PDF copy of my complete resume with all details</p>
+                <a href="assets/resumes/resume.pdf" 
+                   class="btn btn-primary" 
+                   download="resume.pdf">
+                    <i class="fas fa-download"></i> Download PDF
+                </a>
+            </div>
+            
+            <div class="resume-card">
+                <div class="resume-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h3>View Online</h3>
+                <p>View my resume directly in your browser</p>
+                <a href="assets/resumes/resume.pdf" 
+                   class="btn btn-secondary" 
+                   target="_blank">
+                    <i class="fas fa-external-link-alt"></i> View Resume
+                </a>
+            </div>
+            
+            <div class="resume-card">
+                <div class="resume-icon">
+                    <i class="fas fa-print"></i>
+                </div>
+                <h3>Print Version</h3>
+                <p>Printer-friendly version of my resume</p>
+                <button class="btn btn-secondary" onclick="window.print()">
+                    <i class="fas fa-print"></i> Print Resume
+                </button>
+            </div>
+        </div>
+        
+        <!-- Resume Preview Section -->
+        <div class="resume-preview">
+            <h3 style="text-align: center; margin-bottom: 2rem;">Resume Preview</h3>
+            <div class="resume-embed">
+                <!-- You can use Google Docs embed or iframe -->
+                <iframe src="assets/resumes/resume.pdf" 
+                        width="100%" 
+                        height="500px" 
+                        style="border: 1px solid var(--border); border-radius: 10px;">
+                </iframe>
+                <p style="text-align: center; margin-top: 1rem; color: var(--text-light);">
+                    <i class="fas fa-info-circle"></i> PDF viewer may not work on all mobile devices
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+<!-- Compact Contact Section -->
+<section id="contact" style="background: var(--bg-secondary);">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Quick and secure way to contact me</p>
+        </div>
+        
+        <div class="compact-contact">
+            <!-- Contact Cards -->
+            <div class="contact-cards">
+                <!-- Card 1: Email -->
+                <div class="contact-card">
+                    <div class="card-icon email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Me</h3>
+                    <p>pappukumarsingh@example.com</p>
+                    <a href="mailto:papusingh0111@gmail.com" class="btn btn-small">
+                        <i class="fas fa-paper-plane"></i> Write Email
+                    </a>
+                </div>
+                
+                <!-- Card 2: Google Form -->
+                <div class="contact-card primary">
+                    <div class="card-icon google">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>Contact Form</h3>
+                    <p>Secure Google Form</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSelAxWe0OgVODkRUuK8VHXId33H5pNg1nVlXoiHio_RusbE_A/viewform?usp=dialog" 
+                       class="btn btn-small btn-primary"
+                       target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Open Form
+                    </a>
+                    <small><i class="fas fa-clock"></i> 24h response</small>
+                </div>
+                
+                <!-- Card 3: Phone -->
+                <div class="contact-card">
+                    <div class="card-icon phone">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call/WhatsApp</h3>
+                    <p>+91 9864151990</p>
+                    <a href="tel:9864151990" class="btn btn-small">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Simple Form Instructions -->
+            <div class="form-instructions">
+                <h4><i class="fas fa-info-circle"></i> How to use the form:</h4>
+                <ol>
+                    <li>Click "Open Form" above</li>
+                    <li>Fill your details in the new tab</li>
+                    <li>Click <strong>Submit</strong> button</li>
+                    <li>You'll get a confirmation</li>
+                </ol>
+                <div class="security-note">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Powered by Google Forms - Secure & Encrypted</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/yourusername" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/yourusername" class="social-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://codepen.io/yourusername" class="social-link" target="_blank">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </div>
+            <p style="color: var(--text-light); margin-bottom: 1rem;">
+                © 2024 PAPPU KUMAR SINGH. All rights reserved.
+            </p>
+            <p style="color: var(--text-light); font-size: 0.9rem;">
+                Built with <i class="fas fa-heart" style="color: #e74c3c;"></i> and a lot of coffee
+            </p>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <a href="#contact" class="float-contact">
+        <i class="fas fa-paper-plane"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
